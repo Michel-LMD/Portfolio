@@ -41,7 +41,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 120%;
+    font-size: 100%;
     background-color: white;
   }
   
@@ -105,7 +105,7 @@ width: auto;
 @media (max-width: 768px) {
   #apropos {
     flex-direction: column;
-    padding: 30px 15px;
+    padding: 20px 10px;
     text-align: center;
   }
 
@@ -182,8 +182,8 @@ width: auto;
 .competences {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
-  padding: 30px;
+  gap: 25px;
+  padding: 50px;
 }
 
 .categorie {
@@ -314,7 +314,7 @@ font-size: 60%;
 @media (max-width: 768px) {
   .entete {
     flex-direction: column;
-    padding: 10px;
+    padding: 0;
     text-align: center;
   }
 
