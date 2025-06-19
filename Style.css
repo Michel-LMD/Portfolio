@@ -8,7 +8,7 @@
 }
 
 .entete h1 {
-  margin: 50;
+  margin: 0;
   font-size: 24px;
 }
 
@@ -16,7 +16,7 @@
   display: flex;
   list-style: none;
   padding: 20px;
-  margin: 60;
+  margin: 0;
   gap: 20px;
 }
 
@@ -28,7 +28,6 @@
 
 .entete nav ul li a:hover {
   color: rgb(35, 185, 245);
-  background-color:gb(84, 112, 240);
   border-radius: 5px;
 }
 
@@ -109,7 +108,7 @@ width: auto;
 .projet-item {
   flex: 1;
   min-width: 200px;
-  max-width: 5O0px;
+  max-width: 500px;
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 10px;
@@ -120,6 +119,7 @@ width: auto;
   height: 300px;
   box-sizing: border-box;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .projet-item p {
@@ -145,7 +145,6 @@ width: auto;
 }
 
 .categorie {
- flex: 1 1 400px;
  display: flex;
  padding: 30px;
  min-width: 555px;
@@ -214,6 +213,7 @@ width: auto;
   gap: 179px;
   padding: 10px 0;
   flex: auto;
+  flex-wrap: wrap;
 }
 
 .champ {
@@ -221,6 +221,7 @@ width: auto;
   flex-direction: column;
   margin-bottom: 20px;
   flex: 1;
+  flex-wrap: wrap;
 }
 
 .formulaire input, .formulaire textarea {
@@ -263,4 +264,63 @@ font-size: 60%;
 }
 .footer-right {
   padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .entete {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .entete nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  #presentation {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .presentation-texte {
+    padding: 20px;
+    font-size: 22px;
+  }
+
+  #apropos {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .contenu {
+    padding: 20px;
+    font-size: 22px;
+  }
+
+  .competences {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .categorie {
+    min-width: auto;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+  }
+
+  .nom-prenom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 70%;
+  }
 }
