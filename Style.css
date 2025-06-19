@@ -123,7 +123,7 @@ width: auto;
 .projet-item p {
   margin: 10px 0;
   font-size: 25px;
-  flex: 1;
+  flex: auto ;
   flex-wrap: wrap;
 }
 
