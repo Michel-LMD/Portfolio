@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="images\cv.png" type="images">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header class="entete">
+      <h1>Mon Contact</h1> 
+        <nav>
+         <ul>
+            <li><a href="Accueil.html">Accueil</a></li>
+            <li><a href="Apropos.html">Apropos</a></li>
+            <li><a href="Projets.html">Projets</a></li>
+            <li><a href="Compétences.html">Compétences</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+         </ul>
+        </nav>
+    </header>
+    <div id="contact">
+      
+      <form class="formulaire" id="formulaire" name="formulaire" action="https://formsubmit.co/limaziemichel2909@gmail.com" method="POST">
+      <h2>Vous avez <span class="special">un projet en tête?</span>
+      N'hésitez pas à me <span class="special">contacter.</span></h2> 
+      <div class="nom-prenom">
+          <div class="nom">
+            <label for="nom">Nom </label>
+            <input type="text" id="nom" name="nom" placeholder="LUCAS" required>
+          </div>
+
+          <div class="prenom">
+            <label for="Prenom">Prénom </label>
+            <input type="text" id="prenom" name="prenom" placeholder="Jeanne" required>
+          </div>
+        </div>
+        <div class="champ">
+          <label for="email">Email </label>
+          <input type="email" id="email" name="email" placeholder="jeannelucas@gmail.com" required>
+        </div>
+
+        <div class="champ">
+          <label for="sujet">Sujet </label>
+          <input type="text" id="sujet" name="sujet" placeholder="Proposition d'un job ou stage" required>
+        </div>
+
+        <div class="champ">
+          <label for="message">Message </label>
+          <textarea name="message" id="message" rows="5" placeholder="Votre message" required></textarea>
+        </div>
+
+        <button class="submit" type="submit">Envoyer</button>
+        <input type="hidden" name="_captcha" value="false">
+        
+      </form>
+    </div>
+
+    <footer>
+      <p class="footer-left">&copy; Site réalisé par <span class="special">Michel D. Limazie M.</span> avec HTML, CSS & JS</p>
+      <p class="footer-right">Tous droits réservés-2025.</p>
+    </footer>
+
+    <script src="Scripts.js"></script>  
+</body>
+</html>
