@@ -96,6 +96,25 @@ width: auto;
  border:5px solid rgb(35, 185, 245); 
 }
 
+@media (max-width: 768px) {
+  #apropos {
+    flex-direction: column;
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .contenu {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .image-apropos img {
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+  }
+}
+
 /*Mes projets*/
 #projet {
   display: flex;
@@ -342,5 +361,12 @@ font-size: 60%;
     align-items: center;
     text-align: center;
     font-size: 70%;
+  }
+}
+@media (max-width: 760px){
+  body {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
   }
 }
