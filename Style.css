@@ -125,6 +125,8 @@ width: auto;
 .projet-item p {
   margin: 10px 0;
   font-size: 25px;
+  flex: auto;
+  flex-wrap: wrap;
 }
 
 .projet-item .italic {
@@ -145,6 +147,7 @@ width: auto;
 }
 
 .categorie {
+ flex: 1 1 400px;
  display: flex;
  padding: 30px;
  min-width: 555px;
@@ -154,6 +157,7 @@ width: auto;
  height: 375px;
  flex-direction: column;
  justify-content: space-between;
+ flex-wrap: wrap;
 }
 
 .categorie ul {
