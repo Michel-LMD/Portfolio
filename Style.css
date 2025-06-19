@@ -55,7 +55,7 @@ body {
   }
 
   .presentation-texte { 
-  padding: 50px;
+  padding: 20px;
   font-size: 30px;
   }
 
@@ -74,6 +74,12 @@ margin: 20px auto 0;
 width: auto;
 }
 
+.presentation-image {
+ max-width: 80%;
+ height: auto;
+ margin: 10px 0; 
+}
+
 /*Apropos*/
 
 #apropos {
@@ -87,7 +93,7 @@ width: auto;
   text-align: left;
 }
 .contenu {
-  padding: 50px;
+  padding: 30px;
   font-size: 30px;
 }
 
@@ -104,14 +110,14 @@ width: auto;
   }
 
   .contenu {
-    padding: 20px;
+    padding: 30px;
     font-size: 20px;
   }
 
   .image-apropos img {
     max-width: 80%;
     height: auto;
-    margin: 20px 0;
+    margin: 10px 0;
   }
 }
 
@@ -177,7 +183,7 @@ width: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .categorie {
@@ -186,7 +192,7 @@ width: auto;
  padding: 30px;
  min-width: 555px;
  max-width: 1000px;
- border-radius: 20px;
+ border-radius: 10px;
  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
  height: 375px;
  flex-direction: column;
@@ -361,12 +367,5 @@ font-size: 60%;
     align-items: center;
     text-align: center;
     font-size: 70%;
-  }
-}
-@media (max-width: 760px){
-  body {
-    flex-direction: column;
-    padding: 10px;
-    text-align: center;
   }
 }
