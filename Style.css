@@ -102,7 +102,6 @@ width: auto;
   justify-content: space-between;
   gap: 60px;
   padding: 70px;
-  flex-wrap: wrap;
 }
 
 .projet-item {
@@ -143,7 +142,7 @@ width: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .categorie {
@@ -157,12 +156,13 @@ width: auto;
  height: 375px;
  flex-direction: column;
  justify-content: space-between;
- flex-wrap: wrap;
 }
 
 .categorie ul {
   list-style: none;
   padding: 0;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 .categorie li {
